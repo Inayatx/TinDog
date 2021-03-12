@@ -23,16 +23,21 @@ p {
   line-height:1.5;
 }
 
-#title {
-  background-color: #ff4c6d;
-  color: #fff;
-  text-align: left;
-}
-
+/* containers */
 .container-fluid {
   padding: 7% 15%;
 }
 
+/* sections */
+
+.colored-section{
+  background-color: #ff4c6d;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
 /* Navigation bar */
 .navbar {
   padding: 0 0 4.5rem;
@@ -57,6 +62,13 @@ p {
   margin: 5% 3% 5%;
 }
 
+/* title section */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
 /* title image */
 .title-img {
   width: 60%;
@@ -67,9 +79,9 @@ p {
 
 /* features section */
 #features {
-  background-color: #fff;
+
   position: relative;
-  z-index: 1;
+  /* z-index: 1; */ no need here look flow chart
 }
 
 .feature-title{
@@ -92,7 +104,6 @@ p {
 /* testimonial section */
 #testimonials {
   background-color: #ef8172;
-  color: #fff;
 }
 
 .testimonial-text{
@@ -132,10 +143,7 @@ p {
 }
 
 /* CTA section */
-#cta {
-  background-color: #ff4c6d;
-  color: #fff;
-}
+
 
 /* footer section */
 
